@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/user_item_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#757575"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/user_item_name"
+        style="@style/AppTheme.Subheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_item_image"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@+id/user_item_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Employee" />
+
+
+    <TextView
+        android:id="@+id/user_item_position"
+        style="@style/AppTheme.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_item_name"
+        android:layout_alignLeft="@+id/user_item_name"
+        android:textColor="@color/greySecondary"
+        tools:text="Title" />
+    <TextView
+            android:id="@+id/user_item_birthday"
+            style="@style/AppTheme.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/user_item_name"
+            android:layout_toRightOf="@+id/user_item_position"
+            android:textColor="@color/greySecondary"
+            tools:text="Birthday" />
+
+</RelativeLayout>

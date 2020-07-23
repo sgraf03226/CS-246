@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_sign_out"
+        android:title="@string/sign_out" />
+    <item
+            android:id="@+id/addEmployee"
+            android:title="@string/add_employee" />
+    <item
+        android:id="@+id/makeSchedule"
+        android:title="@string/make_schedule" />
+    <item
+        android:id="@+id/requestTimeOff"
+        android:title="@string/request_time_off" />
+
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E0E0E0">
+    <FrameLayout
+            android:id="@+id/empty_bar"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_below="@+id/toolbar"
+            android:background="?attr/colorPrimary"
+            android:paddingBottom="12dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/recycler_employee_schedule"
+         android:layout_below="@id/empty_bar"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@android:color/white"
+         tools:listitem="@layout/item_schedule" />
+
+
+</RelativeLayout>

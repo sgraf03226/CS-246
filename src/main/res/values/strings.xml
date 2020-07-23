@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Schedule</string>
+    <string name="sign_in">Sign in:</string>
+    <string name="company_name">Company Code:</string>
+    <string name="i_e_nasa">i.e. NASA</string>
+    <string name="location">Location:</string>
+    <string name="i_e_los_angeles">i.e. Los Angeles</string>
+    <string name="next_week">Next week</string>
+    <string name="everybody">Everybody</string>
+    <string name="mine">Mine</string>
+    <string name="current">current</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="john_smith">John Smith</string>
+    <string name="new_sched">New Sched</string>
+    <string name="new_empl">New EMPL</string>
+    <string-array name="SpinnerItems">
+        <item>Hourly</item>
+        <item>Salary</item>
+    </string-array>
+
+    <string name="divider_bullet">•</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="make_schedule">Make Schedule</string>
+    <string name="request_time_off">Request Time Off</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="create">Create</string>
+    <string name="employee_name">Employee Name:</string>
+    <string name="end_time">End Time:</string>
+    <string name="start_time">Start Time:</string>
+    <string name="enter_day_of_week">Enter Day of Week:</string>
+    <string name="dateText">Date:</string>
+    <string name="mm_dd">mm/dd</string>
+    <string-array name="SpinnerDay">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="SpinnerMonthAndHour">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="daysOfTheWeekSpinner">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="names">
+        <item>Tanner Harding</item>
+        <item>Jonah White</item>
+        <item>Wyatt Larson</item>
+        <item>more people</item>
+        <item>Even more people</item>
+        <item>The Grinch</item>
+        <item>Your MOM</item>
+    </string-array>
+    <string-array name="SpinnerTimeMin">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="SpinnerTimePM">
+        <item>PM</item>
+        <item>AM</item>
+    </string-array>
+
+</resources>

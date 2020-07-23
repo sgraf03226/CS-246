@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/schedule_item_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#757575"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/schedule_item_day"
+        style="@style/AppTheme.Subheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/schedule_item_image"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@+id/schedule_item_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Monday" />
+
+
+    <TextView
+        android:id="@+id/schedule_item_date"
+        style="@style/AppTheme.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schedule_item_day"
+        android:layout_alignLeft="@+id/schedule_item_day"
+        android:textColor="@color/greySecondary"
+        tools:text="April 22nd" />
+
+    <TextView
+        android:id="@+id/restaurant_item_city_divider"
+        style="@style/AppTheme.TextDivider"
+        android:layout_alignTop="@+id/schedule_item_date"
+        android:layout_toRightOf="@+id/schedule_item_date"
+        android:text="@string/divider_bullet" />
+
+    <TextView
+        android:id="@+id/schedule_item_time"
+        style="@style/AppTheme.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/schedule_item_date"
+        android:layout_toRightOf="@+id/restaurant_item_city_divider"
+        android:textColor="@color/greySecondary"
+        tools:text="10am - 5pm" />
+    <Button
+            android:id="@+id/removeButton"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="#BA2828"
+            android:textColor="#EAEAEA"
+            android:layout_toRightOf="@+id/schedule_item_time"
+            android:layout_marginLeft="40dp"
+            android:onClick="toSchedule"
+            android:visibility="invisible"
+            android:text="X"/>
+
+</RelativeLayout>
